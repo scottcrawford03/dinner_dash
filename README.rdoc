@@ -1,1 +1,21 @@
 To view the live site, visit https://coffee-house.herokuapp.com/
+
+Dinner Dash was a 10 day group project spent developing a restaurant ordering platform using test­driven development and pair programming. My personal focus was on restful routing, session carts, and checkout functionality.
+
+The production application includes allows a user to order coffee and coffee related products.  It also allows an admin to track and update orders as they are paid and completed.
+
+To run in development, run the following commands:
+  git clone git@github.com:oorion/dinner_dash.git
+  cd dinner_dash
+  bundle
+  rake db:setup
+  rails server
+
+In your browser, visit localhost:3000
+
+To view additional functionality, use the following user and admin accounts:
+  standard user:  username: rachel password: password
+  admin user:  username: josh password: password
+
+To run the test suite run:
+  rake test
